@@ -486,10 +486,10 @@ export default function LandingPage({ onStartScreening }: LandingPageProps) {
               About DiaLens
             </span>
             <h1 className="text-3xl md:text-5xl font-black tracking-tight text-slate-900">
-              Solusi AI untuk skrining dan manajemen risiko diabetes.
+              Solusi AI untuk skrining dan manajemen risiko diabetes
             </h1>
             <p className="text-sm md:text-base text-slate-600 leading-relaxed max-w-2xl mx-auto">
-              DiaLens menghadirkan antarmuka klinis modern, prediksi AI yang dapat diandalkan, dan pengalaman pasien yang mudah diikuti — semua dirancang untuk membantu tim perawatan kesehatan membuat keputusan berbasis data.
+              DiaLens menghadirkan antarmuka klinis modern, prediksi AI yang dapat diandalkan, dan pengalaman pasien yang mudah diikuti. Semua dirancang untuk membantu tim perawatan kesehatan membuat keputusan berbasis data.
             </p>
           </motion.div>
 
