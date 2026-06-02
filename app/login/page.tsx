@@ -96,15 +96,12 @@ export default function LoginPage() {
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight leading-tight">
                 Diagnostik presisi yang dikurasi oleh AI.
               </h2>
-              <p className="text-sm leading-relaxed text-white/80 font-light">
-                Masuki era baru kecerdasan klinis. Autentikasi untuk mengakses dasbor institusi Anda, alat diagnostik, dan wawasan kesehatan pasien longitudinal secara aman.
-              </p>
             </div>
           </div>
 
           <div className="relative z-10 space-y-3">
             <div className="flex items-center justify-center">
-              <svg className="w-40 h-20" viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+              <svg className="w-50 h-20" viewBox="0 0 240 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
                 <defs>
                   <linearGradient id="g1" x1="0" x2="1">
                     <stop offset="0" stopColor="#7dd3fc" />
@@ -124,7 +121,7 @@ export default function LoginPage() {
               Wawasan klinis berbantuan AI, lebih cepat dan lebih aman.
             </p>
             <p className="text-[10px] uppercase font-bold tracking-wider text-white/70 text-center">
-              Dipercaya oleh 2.000+ spesialis
+              KURATOR DIAGNOSTIK AI UNTUK PENYAKIT DIABETES
             </p>
           </div>
         </div>
@@ -229,34 +226,7 @@ export default function LoginPage() {
                 </button>
               </p>
             </div>
-
-            <div className="relative flex items-center justify-center">
-              <div className="border-t border-slate-200 w-full"></div>
-              <span className="bg-white px-3 text-[9px] font-bold text-slate-300 uppercase tracking-widest absolute">
-                atau lanjutkan dengan
-              </span>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              <button
-                type="button"
-                onClick={() => setError('Autentikasi pihak ketiga Google belum dikonfigurasi di backend.')}
-                className="border border-sky-200 rounded-xl py-2.5 flex items-center justify-center gap-2 text-xs font-semibold text-slate-700 hover:bg-sky-100 transition-all"
-              >
-                <span className="w-6 h-6 bg-sky-100 rounded-full flex items-center justify-center font-bold text-[10px] text-sky-700">G</span>
-                <span>Google</span>
-              </button>
-              <button
-                type="button"
-                onClick={() => setError('Autentikasi pihak ketiga Apple belum dikonfigurasi di backend.')}
-                className="border border-sky-200 rounded-xl py-2.5 flex items-center justify-center gap-2 text-xs font-semibold text-slate-700 hover:bg-sky-100 transition-all"
-              >
-                <span className="w-6 h-6 bg-sky-900 rounded-full flex items-center justify-center font-bold text-[8px] text-white">A</span>
-                <span>Apple</span>
-              </button>
-            </div>
           </div>
-
           <p className="text-center text-[10px] text-slate-400 font-light mt-8">
             &copy; 2026 DiaLens AI Diagnostics, Inc. Hanya untuk penggunaan klinis dan penelitian. Mematuhi HIPAA.
           </p>

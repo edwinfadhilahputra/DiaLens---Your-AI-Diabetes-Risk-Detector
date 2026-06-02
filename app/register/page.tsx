@@ -70,7 +70,7 @@ export default function RegisterPage() {
         
         <div className="w-16 h-16 mb-2">
           <Image
-            src="/Logo%20Dialens%20AI.png"
+            src="/icon1.png"
             alt="DiaLens Logo"
             width={64}
             height={64}
