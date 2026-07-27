@@ -116,7 +116,7 @@ export default function Sidebar() {
       {mobileSidebarOpen && (
         <div className="fixed inset-0 z-50 lg:hidden">
           <div onClick={() => setMobileSidebarOpen(false)} className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm" />
-          
+          {/* side bar kanan untuk mobile */}
           <aside className="fixed inset-y-0 right-0 z-50 w-64 bg-white p-6 shadow-2xl flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between border-b border-slate-100 pb-4">
